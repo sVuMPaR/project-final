@@ -37,7 +37,7 @@ docker run -p 5433:5432 --name postgres-db-test -e POSTGRES_USER=jira -e POSTGRE
 
 - https://habr.com/ru/articles/259055/
 
-Список выполненных задач (номера как в [задании](ru.javarush.spring.presentation.level25.html)):
+Список выполненных задач :
 
 - **1.** Onboarding — разобрался со структурой проекта
 - **2.** Удалены социальные сети VK и Yandex (OAuth2)
