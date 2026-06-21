@@ -24,11 +24,6 @@ docker run -p 5433:5432 --name postgres-db-test -e POSTGRES_USER=jira -e POSTGRE
   password: JiraRush
 ```
 
-- Есть 2 общие таблицы, на которых не fk
-    - _Reference_ - справочник. Связь делаем по _code_ (по id нельзя, тк id привязано к окружению-конкретной базе)
-    - _UserBelong_ - привязка юзеров с типом (owner, lead, ...) к объекту (таска, проект, спринт, ...). FK вручную будем
-      проверять
-
 ## Аналоги
 
 - https://java-source.net/open-source/issue-trackers
