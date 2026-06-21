@@ -6,4 +6,6 @@ logs
 attachments
 *.patch
 
+# локальные секреты (скопируй из config/_application-secret.yaml)
+config/application-secret.yaml
 
